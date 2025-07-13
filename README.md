@@ -18,4 +18,4 @@ A visual dashboard to analyze and track sentiment trends from Discord server mes
 ---
 
 ### notes 
-- its 2:55 am ,well u might have forgeten me but i havent 😆 i did 2 hours of work on this ,  tommorowo or shoul i say today i had go school since i am only  15  , **but helll naww** ***I wont*** i should be sleeping now but i will watch anime , thanks for everything **-Haaziq Ali**
+- its 2:55 am ,well u might have forgeten me but i havent 😆 i did 2 hours of work on this ,  tommorowo or shoul i say today i had go school since i am only  15  , **but helll naww** ***I wont*** i should be sleeping now but i will watch anime , thanks for everything , tell me if u want any help hehhe **-Haaziq Ali**

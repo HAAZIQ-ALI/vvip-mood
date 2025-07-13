@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discord Sentiment Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#111111] min-h-screen">
+    <header class="relative text-center py-12">
+      <h1 class="font-bold text-white text-4xl" style="font-family: 'Roboto', sans-serif;">🧠 VVIP Sentiment Dashboard</h1>
+      <p class="text-xl text-gray-400 mt-2" style="font-family: 'Roboto', sans-serif;">Track moods and vibes of VVIP over time</p>
+      <a href="https://github.com/VVIP-Kitchen/vvip-mood" target="_blank" class="absolute top-1/2 -translate-y-1/2 right-12">
+        <img src="./iconsAndImages/github.svg" class="w-8 h-8 hover:scale-125 hover:opacity-80 transition duration-300 ease-in-out filter brightness-0 invert" alt="github" />
+      </a>
+    </header>
+    <div class="bg-[#1A1A1A] w-[90%] flex flex-col justify-center mx-auto p-4 rounded-3xl">
+      <div>
+        <h2 class="text-white font-bold text-center pt-4">📊 User Sentiment Distribution</h2>
+        <p class="text-center font-l text-gray-600" ><a href="user_sentiment_plot.html" target="_blank" class="text-[#534AE6]">view page</a></p>
+        <iframe src="user_sentiment_plot.html" title="User Sentiment" class="w-full h-[550px] rounded-lg border-2 border-gray-700 shadow-lg mx-auto block my-4 "></iframe>
+      </div>
+      <div id="card2">
+        <h2 class="text-white font-bold text-center pt-4">📈 Average Server Mood Over Time</h2>
+        <p class="text-center font-l text-gray-600"><a href="average_server_mood.html" target="_blank" class="text-[#534AE6]">view page</a></p>
+        <iframe
+          src="average_server_mood.html"
+          title="Server Mood Over Time"
+          class="w-full h-[500px] rounded-lg border-2 border-gray-700 shadow-lg mx-auto block my-4"
+        ></iframe>
+      </div>
+    </div>
+  </body>
+</html>
